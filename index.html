@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carlos Eduardo Iatskiu — Professor &amp; Pesquisador</title>
+  <meta name="description" content="Professor na UTFPR-Guarapuava. Pesquisador em IHC, IA para Educação e tecnologias para LIBRAS.">
+  <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <nav class="nav container">
+      <ul class="nav__menu" id="nav-menu">
+        <li><a href="#about" class="nav__link" data-i18n="nav.about">Sobre</a></li>
+        <li><a href="#resume" class="nav__link" data-i18n="nav.resume">Trajetória</a></li>
+        <li><a href="#portfolio" class="nav__link" data-i18n="nav.portfolio">Portfólio</a></li>
+        <li><a href="#contact" class="nav__link" data-i18n="nav.contact">Contato</a></li>
+      </ul>
+      <div class="nav__actions">
+        <button class="btn-icon" id="theme-toggle" aria-label="Alternar tema">
+          <svg class="icon icon--sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+          <svg class="icon icon--moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <button class="btn-icon" id="lang-toggle" aria-label="Switch language">
+          <span class="lang-label">EN</span>
+        </button>
+        <button class="btn-icon nav__toggle" id="nav-toggle" aria-label="Menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="hero">
+      <div class="hero__bg"></div>
+      <div class="hero__content">
+        <h1 class="hero__name">Carlos Eduardo<br>Iatskiu</h1>
+        <p class="hero__role">
+          <span data-i18n="hero.role1">Professor Universitário</span>
+          <span class="hero__sep">|</span>
+          <span data-i18n="hero.role2">Pesquisador</span>
+          <span class="hero__sep">|</span>
+          <span data-i18n="hero.role3">Desenvolvedor Web e Mobile</span>
+        </p>
+        <a href="#about" class="hero__scroll" data-i18n="hero.scroll">Saiba mais ↓</a>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container">
+        <p class="section__eyebrow" data-i18n="about.eyebrow">Sobre</p>
+        <h2 class="section__title" data-i18n="about.title">Um pouco sobre meu trabalho...</h2>
+
+        <div class="about__intro">
+          <div class="about__avatar">
+            <img src="img/perfil.jpeg" alt="Carlos Eduardo Iatskiu">
+          </div>
+          <div class="about__intro-text">
+            <p data-i18n="about.intro">Professor efetivo com dedicação exclusiva na UTFPR, câmpus Guarapuava, lotado no curso de Tecnologia em Sistemas para a Internet. Bacharel em Ciência da Computação pela UNICENTRO (PR), Mestre em Informática e Doutor em Ciência da Computação pela UFPR, com pesquisa em Interação Humano-Computador e foco em Tecnologias Assistivas e Acessibilidade em LIBRAS.</p>
+            <p data-i18n="about.intro2">Atua como docente em disciplinas do básico ao avançado na área de Desenvolvimento de Aplicações Web e Mobile, e é professor permanente do Mestrado Profissional em Promoção da Saúde do Centro Universitário UniGuairacá.</p>
+            <p data-i18n="about.intro3">Tem forte atuação em pesquisa nas áreas de Tecnologia Aplicada à Saúde e, atualmente, no uso de Inteligência Artificial aplicada à Educação.</p>
+          </div>
+        </div>
+
+        <div class="about__grid">
+          <div class="profile-card">
+            <h3 data-i18n="about.profile_title">Perfil</h3>
+            <p class="profile-card__tagline" data-i18n="about.profile_tagline">Professor por vocação, pesquisador por curiosidade.</p>
+            <dl class="profile-list">
+              <div class="profile-list__row">
+                <dt data-i18n="about.label_name">Nome</dt>
+                <dd>Carlos Eduardo Andrade Iatskiu</dd>
+              </div>
+              <div class="profile-list__row">
+                <dt data-i18n="about.label_role">Cargo</dt>
+                <dd data-i18n="about.value_role">Professor do Magistério Superior — UTFPR</dd>
+              </div>
+              <div class="profile-list__row">
+                <dt data-i18n="about.label_location">Localização</dt>
+                <dd>Guarapuava, Paraná, Brasil</dd>
+              </div>
+              <div class="profile-list__row">
+                <dt data-i18n="about.label_email">Email</dt>
+                <dd>ciatskiu@gmail.com<br>ciatskiu@utfpr.edu.br</dd>
+              </div>
+            </dl>
+          </div>
+
+          <div class="skills-card">
+            <h3 data-i18n="about.skills_title">Especialidades</h3>
+            <div class="skill-bar">
+              <div class="skill-bar__head"><span data-i18n="about.skill1">Ensino & Docência</span><span>95%</span></div>
+              <div class="skill-bar__track"><div class="skill-bar__fill" style="--pct:95%"></div></div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-bar__head"><span data-i18n="about.skill2">Desenvolvimento Web</span><span>80%</span></div>
+              <div class="skill-bar__track"><div class="skill-bar__fill" style="--pct:80%"></div></div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-bar__head"><span data-i18n="about.skill3">Desenvolvimento Mobile</span><span>90%</span></div>
+              <div class="skill-bar__track"><div class="skill-bar__fill" style="--pct:90%"></div></div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-bar__head"><span data-i18n="about.skill4">IA aplicada à Educação</span><span>70%</span></div>
+              <div class="skill-bar__track"><div class="skill-bar__fill" style="--pct:70%"></div></div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-bar__head"><span data-i18n="about.skill5">IHC & Acessibilidade</span><span>92%</span></div>
+              <div class="skill-bar__track"><div class="skill-bar__fill" style="--pct:92%"></div></div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-bar__head"><span data-i18n="about.skill6">Gestão Acadêmica</span><span>88%</span></div>
+              <div class="skill-bar__track"><div class="skill-bar__fill" style="--pct:88%"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume / Timeline -->
+    <section class="section section--alt" id="resume">
+      <div class="container">
+        <p class="section__eyebrow" data-i18n="resume.eyebrow">Trajetória</p>
+        <h2 class="section__title" data-i18n="resume.title">Minha jornada acadêmica</h2>
+
+        <h3 class="timeline-group__title" data-i18n="resume.experience_title">Experiência Profissional</h3>
+        <div class="timeline">
+          <div class="timeline__item">
+            <div class="timeline__date">
+              <strong data-i18n="resume.exp1_role">Professor Efetivo (DE)</strong>
+              <span>2026 — <span data-i18n="resume.present">Presente</span></span>
+            </div>
+            <div class="timeline__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+            </div>
+            <div class="timeline__content">
+              <h4 data-i18n="resume.exp1_place">UTFPR — Câmpus Guarapuava</h4>
+              <p data-i18n="resume.exp1_desc">Professor do Magistério Superior no curso de Tecnologia em Sistemas para Internet, em dedicação exclusiva.</p>
+            </div>
+          </div>
+
+          <div class="timeline__item">
+            <div class="timeline__date">
+              <strong data-i18n="resume.exp2_role">Coordenador & Professor</strong>
+              <span>2016 — 2026</span>
+            </div>
+            <div class="timeline__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+            </div>
+            <div class="timeline__content">
+              <h4 data-i18n="resume.exp2_place">UniGuairacá Centro Universitário</h4>
+              <p data-i18n="resume.exp2_desc">Quase 10 anos como professor e cerca de 8 anos como coordenador dos cursos de Análise e Desenvolvimento de Sistemas e Engenharia de Software. Liderou a criação de cursos de pós-graduação lato sensu e acompanhou a transição da instituição para Centro Universitário.</p>
+            </div>
+          </div>
+
+          <div class="timeline__item">
+            <div class="timeline__date">
+              <strong data-i18n="resume.exp3_role">Professor Colaborador</strong>
+              <span>2020 — 2026</span>
+            </div>
+            <div class="timeline__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+            </div>
+            <div class="timeline__content">
+              <h4 data-i18n="resume.exp3_place">UNICENTRO — Dept. de Computação</h4>
+              <p data-i18n="resume.exp3_desc">4 anos e 10 meses como professor na mesma instituição onde se formou em Ciência da Computação, contribuindo para a formação de novos profissionais.</p>
+            </div>
+          </div>
+        </div>
+
+        <h3 class="timeline-group__title" data-i18n="resume.education_title">Formação Acadêmica</h3>
+        <div class="timeline">
+          <div class="timeline__item">
+            <div class="timeline__date">
+              <strong data-i18n="resume.edu1_role">Doutorado em Ciência da Computação</strong>
+              <span>2014 — 2018</span>
+            </div>
+            <div class="timeline__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 10L12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+            </div>
+            <div class="timeline__content">
+              <h4>UFPR — Universidade Federal do Paraná</h4>
+              <p data-i18n="resume.edu1_desc">Doutorado pelo Programa de Pós-Graduação em Informática (PPGINF), na área de Interação Humano-Computador e tecnologias para LIBRAS, com foco na geração da escrita da LIBRAS. Tese: <em>Core-SL-SW-generator: gerador automático da escrita da LIBRAS a partir de um modelo de especificação formal dos sinais</em>.</p>
+              <a href="https://acervodigital.ufpr.br/handle/1884/59384" target="_blank" rel="noopener" class="timeline__link" data-i18n="resume.edu1_link">Ver tese →</a>
+            </div>
+          </div>
+
+          <div class="timeline__item">
+            <div class="timeline__date">
+              <strong data-i18n="resume.edu2_role">Mestrado em Informática</strong>
+              <span>2012 — 2014</span>
+            </div>
+            <div class="timeline__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 10L12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+            </div>
+            <div class="timeline__content">
+              <h4>UFPR — Universidade Federal do Paraná</h4>
+              <p data-i18n="resume.edu2_desc">Mestrado pelo Programa de Pós-Graduação em Informática (PPGINF), na mesma área, com foco na interpretação da LIBRAS. Dissertação: <em>Serviço web de interpretação do modelo fonológico computacional da LIBRAS para os símbolos gráficos do SignWriting</em>.</p>
+              <a href="https://acervodigital.ufpr.br/xmlui/handle/1884/35199" target="_blank" rel="noopener" class="timeline__link" data-i18n="resume.edu2_link">Ver dissertação →</a>
+            </div>
+          </div>
+
+          <div class="timeline__item">
+            <div class="timeline__date">
+              <strong data-i18n="resume.edu3_role">Bacharelado em Ciência da Computação</strong>
+              <span>2007 — 2012</span>
+            </div>
+            <div class="timeline__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 10L12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+            </div>
+            <div class="timeline__content">
+              <h4>UNICENTRO — Universidade Estadual do Centro-Oeste</h4>
+              <p data-i18n="resume.edu3_desc">Graduação em Ciência da Computação. Atuou como monitor da disciplina de Programação e desenvolveu iniciação científica aplicada à indústria, com o trabalho <em>Método de Inspeção Semiótica Aplicado a um Sistema de Controle de Romaneios</em>. Desenvolveu Trabalho de Conclusão de Curso com o tema <em>Avaliação online da acessibilidade web para usuários na terceira idade</em>.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats band -->
+    <section class="stats">
+      <div class="container stats__grid">
+        <div class="stat">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+          <span class="stat__num">9+</span>
+          <span class="stat__label" data-i18n="stats.years">Anos de docência</span>
+        </div>
+        <div class="stat">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 10L12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+          <span class="stat__num">3</span>
+          <span class="stat__label" data-i18n="stats.degrees">Titulações acadêmicas</span>
+        </div>
+        <div class="stat">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          <span class="stat__num">8+</span>
+          <span class="stat__label" data-i18n="stats.coordination">Anos de coordenação de curso</span>
+        </div>
+        <div class="stat">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          <span class="stat__num">22+</span>
+          <span class="stat__label" data-i18n="stats.publications">Artigos &amp; trabalhos publicados</span>
+        </div>
+        <div class="stat">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+          <span class="stat__num">5</span>
+          <span class="stat__label" data-i18n="stats.books">Livros publicados</span>
+        </div>
+        <div class="stat">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          <span class="stat__num">6</span>
+          <span class="stat__label" data-i18n="stats.software">Softwares registrados (INPI)</span>
+        </div>
+        <div class="stat">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+          <span class="stat__num">15</span>
+          <span class="stat__label" data-i18n="stats.didactic">Materiais didáticos</span>
+        </div>
+        <div class="stat">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          <span class="stat__num">60+</span>
+          <span class="stat__label" data-i18n="stats.advising">Orientações</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="section" id="portfolio">
+      <div class="container">
+        <p class="section__eyebrow" data-i18n="portfolio.eyebrow">Portfólio</p>
+        <h2 class="section__title" data-i18n="portfolio.title">Áreas de atuação e pesquisa</h2>
+        <p class="section__subtitle" data-i18n="portfolio.subtitle">Projetos, pesquisas e iniciativas que conduzo ou conduzi ao longo da carreira.</p>
+        <p class="portfolio__wip" data-i18n="portfolio.wip">🚧 Portfólio em construção — conteúdo sendo atualizado em breve.</p>
+
+        <div class="projects">
+          <article class="project-card project-card--featured">
+            <div class="project-card__icon">🤖</div>
+            <span class="project-card__badge" data-i18n="portfolio.badge_new">Em andamento</span>
+            <h3 data-i18n="portfolio.p1_title">IA para Educadores</h3>
+            <p data-i18n="portfolio.p1_desc">Pesquisa e desenvolvimento de estratégias para integrar Inteligência Artificial no processo de ensino e aprendizagem, capacitando docentes para o uso pedagógico de IA.</p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__icon">🤟</div>
+            <h3 data-i18n="portfolio.p2_title">Ferramentas para LIBRAS</h3>
+            <p data-i18n="portfolio.p2_desc">Ferramentas computacionais para interpretação e representação da Língua Brasileira de Sinais usando SignWriting.</p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__icon">🌐</div>
+            <h3 data-i18n="portfolio.p3_title">Desenvolvimento Web & Mobile</h3>
+            <p data-i18n="portfolio.p3_desc">Disciplinas e projetos de desenvolvimento web e mobile com foco em acessibilidade e boas práticas.</p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__icon">🎓</div>
+            <h3 data-i18n="portfolio.p4_title">Coordenação de Cursos</h3>
+            <p data-i18n="portfolio.p4_desc">Criação, implantação e coordenação de cursos de graduação e pós-graduação em tecnologia.</p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__icon">🔬</div>
+            <h3 data-i18n="portfolio.p5_title">Pesquisa em IHC</h3>
+            <p data-i18n="portfolio.p5_desc">Pesquisas em Interação Humano-Computador com foco em usabilidade, acessibilidade e experiência do usuário.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section--alt" id="contact">
+      <div class="container">
+        <p class="section__eyebrow" data-i18n="contact.eyebrow">Contato</p>
+        <h2 class="section__title" data-i18n="contact.title">Vamos conversar?</h2>
+        <p class="section__subtitle" data-i18n="contact.subtitle">Entre em contato para colaborações, orientações ou dúvidas.</p>
+
+        <div class="contact-grid">
+          <a href="mailto:ciatskiu@gmail.com" class="contact-card">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="22,4 12,13 2,4"/></svg>
+            <span class="contact-card__label">Email</span>
+            <span class="contact-card__value">ciatskiu@gmail.com</span>
+          </a>
+
+          <a href="mailto:ciatskiu@utfpr.edu.br" class="contact-card">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="22,4 12,13 2,4"/></svg>
+            <span class="contact-card__label" data-i18n="contact.email_inst">Email Institucional</span>
+            <span class="contact-card__value">ciatskiu@utfpr.edu.br</span>
+          </a>
+
+          <a href="https://www.linkedin.com/in/ciatskiu" target="_blank" rel="noopener" class="contact-card">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            <span class="contact-card__label">LinkedIn</span>
+            <span class="contact-card__value">/in/ciatskiu</span>
+          </a>
+
+          <a href="https://github.com/ciatskiu" target="_blank" rel="noopener" class="contact-card">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+            <span class="contact-card__label">GitHub</span>
+            <span class="contact-card__value">/ciatskiu</span>
+          </a>
+
+          <a href="https://www.researchgate.net/profile/Carlos-Eduardo-Andrade-Iatskiu" target="_blank" rel="noopener" class="contact-card">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            <span class="contact-card__label">ResearchGate</span>
+            <span class="contact-card__value" data-i18n="contact.rg_value">Ver perfil</span>
+          </a>
+
+          <a href="http://lattes.cnpq.br/7482735124269758" target="_blank" rel="noopener" class="contact-card">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+            <span class="contact-card__label" data-i18n="contact.lattes">Currículo Lattes</span>
+            <span class="contact-card__value" data-i18n="contact.lattes_value">Ver currículo</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Carlos Eduardo Andrade Iatskiu</p>
+    </div>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

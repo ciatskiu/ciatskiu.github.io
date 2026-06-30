@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "site-pessoal",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["serve", "-l", "3000", "/Users/carlosiatskiu/Documents/Claude/Projects/site-pessoal"],
+      "port": 3000
+    }
+  ]
+}
