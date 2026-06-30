@@ -4,6 +4,7 @@ const translations = {
     "nav.resume": "Trajetória",
     "nav.portfolio": "Portfólio",
     "nav.contact": "Contato",
+    "nav.materials": "Materiais",
     "hero.eyebrow": "Portfólio",
     "hero.role1": "Professor Universitário",
     "hero.role2": "Pesquisador",
@@ -82,13 +83,18 @@ const translations = {
     "contact.lattes": "Currículo Lattes",
     "contact.rg_value": "Ver perfil",
     "contact.lattes_value": "Ver currículo",
-    "contact.email_inst": "Email Institucional"
+    "contact.email_inst": "Email Institucional",
+    "materials.eyebrow": "Materiais",
+    "materials.title": "Materiais de palestras",
+    "materials.subtitle": "Slides, links e recursos compartilhados durante minhas palestras e apresentações.",
+    "materials.wip": "🚧 Nenhum material disponível no momento — em breve, o conteúdo das próximas palestras será publicado aqui."
   },
   en: {
     "nav.about": "About",
     "nav.resume": "Resume",
     "nav.portfolio": "Portfolio",
     "nav.contact": "Contact",
+    "nav.materials": "Materials",
     "hero.eyebrow": "Portfolio",
     "hero.role1": "University Professor",
     "hero.role2": "Researcher",
@@ -167,7 +173,11 @@ const translations = {
     "contact.lattes": "Lattes CV",
     "contact.rg_value": "View profile",
     "contact.lattes_value": "View CV",
-    "contact.email_inst": "Institutional Email"
+    "contact.email_inst": "Institutional Email",
+    "materials.eyebrow": "Materials",
+    "materials.title": "Talk materials",
+    "materials.subtitle": "Slides, links, and resources shared during my talks and presentations.",
+    "materials.wip": "🚧 No materials available at the moment — content from upcoming talks will be published here soon."
   }
 };
 
