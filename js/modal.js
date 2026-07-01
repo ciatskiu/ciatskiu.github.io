@@ -11,10 +11,10 @@ const modalData = {
       ]
     },
     p2: {
-      icon: "🤟",
-      title: "Ferramentas para LIBRAS",
-      desc: "[ Descrição expandida a preencher — ferramentas desenvolvidas, tecnologias utilizadas, impacto para comunidade surda, publicações relacionadas. ]",
-      tags: ["LIBRAS", "SignWriting", "Acessibilidade", "IHC"],
+      icon: "🤟🔬",
+      title: "Pesquisa em IHC e LIBRAS",
+      desc: "[ Descrição expandida a preencher — linhas de pesquisa em IHC, ferramentas desenvolvidas para LIBRAS/SignWriting, publicações relacionadas, impacto para comunidade surda. ]",
+      tags: ["IHC", "LIBRAS", "SignWriting", "Acessibilidade", "Usabilidade"],
       links: [
         // { label: "Ver tese", url: "https://acervodigital.ufpr.br/handle/1884/59384" }
       ]
@@ -34,10 +34,10 @@ const modalData = {
       links: []
     },
     p5: {
-      icon: "🔬",
-      title: "Pesquisa em IHC",
-      desc: "[ Descrição expandida a preencher — linhas de pesquisa, projetos em andamento, publicações, orientações concluídas nessa área. ]",
-      tags: ["IHC", "Usabilidade", "UX", "Acessibilidade", "Pesquisa"],
+      icon: "📋",
+      title: "Orientações Acadêmicas",
+      desc: "[ Descrição expandida a preencher — número de orientandos por modalidade (mestrado, especialização, residência técnica, graduação), áreas temáticas, instituições, período. ]",
+      tags: ["Mestrado", "Especialização", "Residência Técnica", "TCC", "Graduação"],
       links: []
     }
   },
@@ -50,10 +50,10 @@ const modalData = {
       links: []
     },
     p2: {
-      icon: "🤟",
-      title: "LIBRAS Tools",
-      desc: "[ Expanded description to fill in — tools developed, technologies used, impact on the deaf community, related publications. ]",
-      tags: ["LIBRAS", "SignWriting", "Accessibility", "HCI"],
+      icon: "🤟🔬",
+      title: "HCI & LIBRAS Research",
+      desc: "[ Expanded description to fill in — HCI research lines, tools developed for LIBRAS/SignWriting, related publications, impact on the deaf community. ]",
+      tags: ["HCI", "LIBRAS", "SignWriting", "Accessibility", "Usability"],
       links: []
     },
     p3: {
@@ -71,10 +71,10 @@ const modalData = {
       links: []
     },
     p5: {
-      icon: "🔬",
-      title: "HCI Research",
-      desc: "[ Expanded description to fill in — research lines, ongoing projects, publications, completed advisees in this area. ]",
-      tags: ["HCI", "Usability", "UX", "Accessibility", "Research"],
+      icon: "📋",
+      title: "Academic Advising",
+      desc: "[ Expanded description to fill in — number of advisees per modality (master's, specialization, technical residency, undergraduate), thematic areas, institutions, period. ]",
+      tags: ["Master's", "Specialization", "Technical Residency", "Undergrad", "Advising"],
       links: []
     }
   }
