@@ -286,8 +286,8 @@ a { color: var(--accent); text-decoration: none; transition: color var(--transit
 
 .about__avatar {
   flex-shrink: 0;
-  width: 160px;
-  height: 160px;
+  width: 220px;
+  height: 220px;
   border-radius: 50%;
   overflow: hidden;
   border: 3px solid var(--accent);
@@ -580,8 +580,8 @@ a { color: var(--accent); text-decoration: none; transition: color var(--transit
   background: var(--card-bg);
   border: 1px solid var(--card-border);
   border-radius: calc(var(--radius) * 1.5);
-  padding: 2.5rem;
-  max-width: 560px;
+  padding: 3rem;
+  max-width: 720px;
   width: 100%;
   max-height: 90vh;
   overflow-y: auto;
